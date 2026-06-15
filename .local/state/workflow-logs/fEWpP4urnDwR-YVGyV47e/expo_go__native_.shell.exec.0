@@ -1,0 +1,22 @@
+[1G[0K⠙[1G[0K[90mStarting project at /home/runner/workspace/mobile[39m
+[90mUsing src/app as the root directory for Expo Router.[39m
+[90mReact Compiler enabled[39m
+[2mStarting Metro Bundler[22m
+
+[31m[7m[1m ERROR [22m[27m[39m An unknown error occurred while installing React Native DevTools. Details:
+
+/home/runner/workspace/mobile/node_modules/@react-native/debugger-shell/bin/react-native-devtools: error while loading shared libraries: libglib-2.0.so.0: cannot open shared object file: No such file or directory
+
+[31mError: listen EADDRINUSE: address already in use :::8081[39m
+[90mError: listen EADDRINUSE: address already in use :::8081[39m
+[90m    at Server.setupListenHandle [as _listen2] (node:net:1908:16)[39m
+[90m    at listenInCluster (node:net:1965:12)[39m
+[90m    at Server.listen (node:net:2067:7)[39m
+[90m    at /home/runner/workspace/mobile/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/runServer-fork.js:144:20[39m
+[90m    at new Promise (<anonymous>)[39m
+[90m    at runServer (/home/runner/workspace/mobile/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/runServer-fork.js:140:12)[39m
+[90m    at async replaceMetroFileMap (/home/runner/workspace/mobile/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/createFileMap-fork.js:191:20)[39m
+[90m    at async instantiateMetroAsync (/home/runner/workspace/mobile/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/instantiateMetro.js:381:51)[39m
+[90m    at async MetroBundlerDevServer.startImplementationAsync (/home/runner/workspace/mobile/node_modules/expo/node_modules/@expo/cli/build/src/start/server/metro/MetroBundlerDevServer.js:928:82)[39m
+[90m    at async MetroBundlerDevServer.startAsync (/home/runner/workspace/mobile/node_modules/expo/node_modules/@expo/cli/build/src/start/server/BundlerDevServer.js:124:24)[39m
+[1G[0K⠙[1G[0K

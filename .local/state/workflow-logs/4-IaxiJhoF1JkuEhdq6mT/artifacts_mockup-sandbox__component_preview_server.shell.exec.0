@@ -1,0 +1,99 @@
+[1G[0K⠙[1G[0K
+> mockup-sandbox@0.0.0 dev
+> vite --config vite.config.ts --host 0.0.0.0
+
+[1G[0K⠙[1G[0K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J
+  [32m[1mVITE[22m v7.3.2[39m  [2mready in [0m[1m2326[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m23636[22m/__mockup/[39m
+  [32m➜[39m  [1mNetwork[22m: [36mhttp://172.24.0.2:[1m23636[22m/__mockup/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:56:40 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate key "background" in object literal[33m
+171 |                { label: "Dernier bolus", val: "3.5U", unit: "", sub: "il y a 2h30", color: "#92400E", bg: "#FEFCE8", b...
+172 |                map((m) =>
+173 |  ...dius: 12, padding: "12px 14px", border: `1px solid ${m.b}`, background: m.bg }}>
+    |                                                                 ^
+174 |                    <div data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/dashboard/XaiV1.tsx:174:...
+175 |                    <div data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/dashboard/XaiV1.tsx:175:...
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/artifacts/mockup-sandbox/src/components/mockups/dashboard/XaiV1.tsx[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:56:40 AM[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [33mwarning: [33mDuplicate key "height" in object literal[33m
+141 |                    </span>
+142 |                    <span data-replit-metadata="artifacts/mockup-sandbox/src/components/mockups/dashboard/XaiV2.tsx:142...
+143 |  ...erRadius: 1, opacity: 0.4, borderTop: "2px dashed #1565C0", height: 0 }} />
+    |                                                                 ^
+144 |                      Prédit
+145 |                    </span>
+[39m
+  Plugin: [35mvite:esbuild[39m
+  File: [36m/home/runner/workspace/artifacts/mockup-sandbox/src/components/mockups/dashboard/XaiV2.tsx[39m

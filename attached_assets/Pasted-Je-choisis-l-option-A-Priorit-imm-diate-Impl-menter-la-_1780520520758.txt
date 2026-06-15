@@ -1,0 +1,87 @@
+Je choisis l’option (A).
+
+Priorité immédiate :
+Implémenter la Phase 8.5.2 — Archivage legacy web + création du nouveau Web Portal indépendant + désactivation de la publication actuelle + workflows + documentation.
+
+La note Canvas “Prompt reformulé” concernant les deux rapports d’évaluation n’est pas prioritaire maintenant. Elle est hors périmètre de l’action actuelle. Elle pourra être traitée plus tard, après validation de la Phase 8.5.2, mais elle ne doit pas être exécutée maintenant.
+
+Donc :
+
+- Exécuter A maintenant.
+- Ne pas exécuter B maintenant.
+- Ne pas produire les deux rapports d’audit/jury maintenant.
+- Ne pas mélanger B avec la Phase 8.5.2.
+
+Clarification importante :
+L’archivage de `MedAICare_V.3_10Patients/` est volontaire et validé. Ce dossier correspond à l’ancienne application web legacy. Il doit être conservé pour référence, mais ne plus appartenir à la structure active.
+
+Cible validée :
+
+1. `archive/legacy-web/MedAICare_V.3_10Patients/`
+   = ancienne app web archivée, récupérable, non active, non publiée.
+
+2. `web-portal/`
+   = nouvelle plateforme web publique active, destinée à présenter MediAI Care et à donner accès à l’application mobile.
+
+3. `mobile/`
+   = application principale patient/clinicien.
+
+4. `backend/`
+   = API source de vérité.
+
+Tu peux donc poursuivre la Phase 8.5.2.
+
+Cependant, comme la phase contient des actions structurantes, respecte l’ordre suivant :
+
+## Étape 1 — Audit lecture seule
+
+Commence par l’audit demandé dans le prompt :
+
+- références à `MedAICare_V.3_10Patients`;
+- workflows qui l’utilisent ;
+- configuration de déploiement ;
+- documentation qui le mentionne ;
+- dépendances éventuelles ;
+- confirmation que `backend/` et `mobile/` n’en dépendent pas.
+
+Produis un court résumé de l’audit.
+
+## Étape 2 — Exécution Phase 8.5.2
+
+Après l’audit, applique la Phase 8.5.2 telle que définie :
+
+- déplacer l’ancien web vers `archive/legacy-web/MedAICare_V.3_10Patients/`;
+- créer `archive/legacy-web/README.md`;
+- désactiver la publication actuelle si elle pointe vers l’ancien web ;
+- créer le nouveau `web-portal/`;
+- configurer le workflow Web Portal port 5000 ;
+- conserver Mobile App port 5173 ;
+- conserver Backend API port 8000 ;
+- créer ou corriger les liens/QR vers l’application mobile ;
+- vérifier que l’app mobile fonctionne ;
+- mettre à jour la documentation ;
+- produire `docs/migration/RAPPORT_PHASE_8_5_2.md`.
+
+## Étape 3 — Validation
+
+À la fin, fournir uniquement le rapport Phase 8.5.2 avec :
+
+- Web Portal : OK / KO ;
+- Mobile App : OK / KO ;
+- Backend API : OK / KO ;
+- Legacy Web archivé : OK / KO ;
+- Publication ancienne désactivée : OK / KO ;
+- Lien mobile : OK / KO ;
+- QR mobile : OK / KO ;
+- Tests : OK / KO ;
+- fichiers principaux modifiés ;
+- limites restantes ;
+- décision proposée pour Phase 9.
+
+Ne pas démarrer Phase 9.
+Ne pas produire les deux rapports d’évaluation de la note Canvas.
+Ne pas mélanger les deux demandes.
+
+La demande active et prioritaire est donc :
+
+(A) Implémenter la Phase 8.5.2.
