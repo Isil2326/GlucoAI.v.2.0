@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: MedAICare_V.3_10Patients
+        # Le chemin exact vers le dossier de votre application depuis la racine
+        working-directory: archive/legacy-web/MedAICare_V.3_10Patients
     steps:
       - name: Checkout
         uses: actions/checkout@v4
