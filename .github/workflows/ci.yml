@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: MedAICare_V.3_10Patients/package-lock.json
+          cache-dependency-path: GlucoAI.v.2.0\archive\legacy-web\MedAICare_V.3_10Patients/package-lock.json
 
       - name: Install dependencies
         run: npm ci
